@@ -49,12 +49,12 @@
 #define __EEPROM_EMUL_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32l4xx_hal.h"
+#include "stm32g4xx_hal.h"
 #include "eeprom_emul_conf.h"
 #include "eeprom_emul_types.h"
 #include "flash_interface.h"
-#include "stm32l4xx_ll_crc.h"
-#include "stm32l4xx_ll_bus.h"
+#include "stm32g4xx_hal_crc.h"
+//#include "stm32l4xx_ll_bus.h"
 #if defined(RECOVERY_TEST)
 #include "stm32l4xx_ll_rtc.h"
 #endif
